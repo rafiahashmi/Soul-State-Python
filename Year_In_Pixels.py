@@ -15,8 +15,6 @@ def render_mood_heatmap(mood_data, mood_tracker_instance, st):
         st.info("No mood entries found yet. Log your first feelings to see the heatmap!")
         return
 
-    # st.subheader("📆 Year in Pixels")
-
     # 1. Prepare Data and Mood Score Mapping (DYNAMICALLY GENERATED)
     mood_data['date'] = pd.to_datetime(mood_data['date'])
 
