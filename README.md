@@ -2,7 +2,7 @@
 
 **SoulState** is a Python & Streamlit application designed to help users track and improve their **mental, physical, and spiritual well-being**. Log your daily moods, sleep patterns, and prayer habits while getting visual insights into your wellness journey.
 
-------------------------**Features**
+**Features**
 
 * **Mood Tracker** 🌈 – Log daily moods, journal thoughts, and view your "Year in Pixels" heatmap.
 * **Sleep Tracker** 💤 – Track hours slept and rest quality with trends over time.
@@ -19,14 +19,14 @@ https://github.com/rafiahashmi/Soul-State-Python/issues/1#issue-3652250668
 
 1. Clone the repository:
 
-**bash**
+-bash
 git clone https://github.com/yourusername/SoulState.git
 cd SoulState
 ```
 
 2. (Optional) Create a virtual environment:
 
-**bash**
+-bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
@@ -34,17 +34,17 @@ venv\Scripts\activate     # Windows
 
 3. Install dependencies:
 
-**bash**
+-bash
 pip install -r requirements.txt
 ```
 
 4. Run the app:
-
-**bash**
+-bash
 streamlit run SoulState.py
 
-**USAGE**
 
+
+**USAGE**
 1. Open the app in your browser.
 2. Navigate through **tabs**: Mood, Sleep, or Salah.
 3. Log daily entries and notes.
