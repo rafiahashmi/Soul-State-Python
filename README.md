@@ -53,23 +53,7 @@ streamlit run SoulState.py
 4. Review visual trends: heatmaps, line charts, and metrics.
 5. Edit past entries in the **Full Journal Review** section.
 
-**Project Structure**
-
-SoulState/
-│
-├─ SoulState.py           # Main Streamlit app
-├─ models/
-│   ├─ mood_tracker.py    # MoodTracker class
-│   ├─ sleep_tracker.py   # SleepTracker class
-│   ├─ salah_tracker.py   # SalahTracker class
-│
-├─ Year_In_Pixels.py      # Mood heatmap renderer
-├─ data/                  # CSV files
-├─ requirements.txt       # Python dependencies
-└─ README.md              # Project documentation
-
-
-**Tracker Classes**
+**TRACKER CLASSES**
 
 * **Tracker** (Abstract Base Class) – Defines common interface: `add_entry`, `get_entries`, `load_data`, `save_data`.
 * **MoodTracker** – Handles mood logging and mood types.
@@ -78,7 +62,7 @@ SoulState/
 
 
 
-**Future Enhancements**
+**FUTURE ENHANCEMENTS**
 
 * Add **customizable habits tracker** for daily routines.
 * Integrate **reminders/notifications** for consistency.
@@ -86,7 +70,7 @@ SoulState/
 * Multi-user support with authentication.
 
 
-**Contributing**
+**CONTRIBUTING**
 
 1. Fork the repository
 2. Create a branch: `git checkout -b feature-name`
@@ -94,6 +78,6 @@ SoulState/
 4. Push: `git push origin feature-name`
 5. Open a Pull Request
 
-**License**
+**LICENSE**
 
 This project is licensed under the MIT License.
