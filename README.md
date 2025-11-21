@@ -12,10 +12,10 @@
 * **Data Persistence** – All trackers save to CSV for continuity.
 * **Abstract Tracker Design** – Uses an abstract base class (`Tracker`) for modularity and scalability.
 
----------------------------**Demo**
+**DEMO**
 https://github.com/rafiahashmi/Soul-State-Python/issues/1#issue-3652250668
 
-------------------------**Installation**
+**INSTALLATION**
 
 1. Clone the repository:
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 **bash**
 streamlit run SoulState.py
 
---------------------------**Usage**
+**USAGE**
 
 1. Open the app in your browser.
 2. Navigate through **tabs**: Mood, Sleep, or Salah.
@@ -51,9 +51,7 @@ streamlit run SoulState.py
 4. Review visual trends: heatmaps, line charts, and metrics.
 5. Edit past entries in the **Full Journal Review** section.
 
----
-
-----------------------**Project Structure**
+**Project Structure**
 
 SoulState/
 │
@@ -68,7 +66,8 @@ SoulState/
 ├─ requirements.txt       # Python dependencies
 └─ README.md              # Project documentation
 
----------------------------**Tracker Classes**
+
+**Tracker Classes**
 
 * **Tracker** (Abstract Base Class) – Defines common interface: `add_entry`, `get_entries`, `load_data`, `save_data`.
 * **MoodTracker** – Handles mood logging and mood types.
@@ -77,7 +76,7 @@ SoulState/
 
 
 
----------------------**Future Enhancements**
+**Future Enhancements**
 
 * Add **customizable habits tracker** for daily routines.
 * Integrate **reminders/notifications** for consistency.
@@ -85,7 +84,7 @@ SoulState/
 * Multi-user support with authentication.
 
 
-----------------------**Contributing**
+**Contributing**
 
 1. Fork the repository
 2. Create a branch: `git checkout -b feature-name`
@@ -93,8 +92,6 @@ SoulState/
 4. Push: `git push origin feature-name`
 5. Open a Pull Request
 
----
-
-------------------------**License**
+**License**
 
 This project is licensed under the MIT License.
